@@ -142,7 +142,7 @@ foreign ftd {
 	
 	font_new_from_bytes :: proc(
 		bytes: [^]c.uint8_t,
-		size: c.uintptr_t,
+		size: c.size_t,
 		settings: FontSettings,
 	) -> Font ---
 
