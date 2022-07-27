@@ -1,7 +1,7 @@
 package fontdue
 
 when ODIN_OS == .Linux || ODIN_OS == .Darwin {
-	foreign import ftd "system:fontdue_native"
+	foreign import ftd "libfontdue_native.a"
 }
 
 import "core:c"
